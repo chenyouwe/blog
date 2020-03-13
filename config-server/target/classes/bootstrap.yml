@@ -1,0 +1,14 @@
+server:
+  port: 8889
+
+spring:
+  application:
+    name: config-server
+  # 本地化配置
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config/

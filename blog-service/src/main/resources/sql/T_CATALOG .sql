@@ -1,0 +1,5 @@
+CREATE TABLE T_CATALOG (
+   ID int(5) PRIMARY KEY NOT NULL auto_increment,
+   CATEGORY VARCHAR(50) COMMENT '类别名称',
+   FATHER_ID int(50) COMMENT '父类别id'
+) COMMENT = '目录表';
